@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,8 +8,96 @@
   </head>
   <body>
     <main>
-      <h1>helloo</h1>
-      <div id="canvas"></div>
+      <div class="particles">
+        <canvas id="particles"></canvas>
+      </div>
+      <header class="header">
+        <p>Navigation: <br>
+          <span>hover on slide</span>
+        </p>
+        <div class="images">
+          <div class="images__image">
+            <img src="/1.jpg" alt="image 1" width="60" />
+            <span>slide 1</span>
+          </div>
+          <div class="images__image">
+            <img src="/2.jpg" alt="image 2" width="60" />
+            <span>slide 2</span>
+          </div>
+          <div class="images__image">
+            <img src="/3.jpg" alt="image 3" width="60" />
+            <span>slide 3</span>
+          </div>
+          <!-- <div class="images__image">
+            <img src="/4.jpg" alt="image 4" width="60" />
+            <span>slide 4</span>
+          </div>
+          <div class="images__image">
+            <img src="/5.jpg" alt="image 5" width="60" />
+            <span>slide 5</span>
+          </div> -->
+        </div>
+      </header>
+      <h1 class="move-title">helloo</h1>
+      <div class="hero-top">
+        <h2>it's top hero title
+          <br>
+          scroll down!
+        </h2>
+      </div>
+      <div class="content">
+        <section class="spacer fake-content-bg">
+          <h2>fake contnet bg text</h2>
+        </section>
+        <div class="hero-intro">
+          <div class="hero-intro__content">
+            <h2>it's intro hero title</h2>
+            <section class="spacer">
+              <h2>spacer title 2</h2>
+            </section>
+            <section class="spacer">
+              <h2>spacer title 3</h2>
+            </section>
+            <section class="hero">
+              <section class="hero__slide">
+                <div>
+                  <h2>1 Альберт Эйнштейн</h2>
+                  <p>
+                    Логика может привести Вас от пункта А к пункту Б, а воображение —
+                    куда угодно.
+                  </p>
+                  <p>this is a great text about section</p>
+                </div>
+              </section>
+              <section class="hero__slide">
+                <div>
+                  <h2>2 Майкл Джордан</h2>
+                  <p>
+                    За свою карьеру я пропустил более 9000 бросков, проиграл почти 300
+                    игр. 26 раз мне доверяли сделать финальный победный бросок, и я
+                    промахивался. Я терпел поражения снова, и снова, и снова. И именно
+                    поэтому я добился успеха.
+                  </p>
+                </div>
+              </section>
+              <section class="hero__slide">
+                <div>
+                  <h2>3 Амелия Эрхарт</h2>
+                  <p>
+                    Сложнее всего начать действовать, все остальное зависит только от
+                    упорства.
+                  </p>
+                </div>
+              </section>
+              <div id="canvas"></div>
+            </section>
+            <section class="spacer">
+              <h2>spacer title 4</h2>
+            </section>
+          </div>
+        </div>
+      </div>
+
     </main>
     <script type="module" src="/main.js"></script>
   </body>
